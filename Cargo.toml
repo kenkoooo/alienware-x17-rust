@@ -1,0 +1,8 @@
+[package]
+name = "alienfx-x17"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rusb = "0.9.4"
+thiserror = "1.0.61"
