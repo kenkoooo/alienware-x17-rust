@@ -1,4 +1,4 @@
-use alienfx_x17::{AlienKeyboard, AlienLED, Color};
+use alienfx_x17::{AlienKeyboard, AlienLED};
 use rusb::Context;
 
 type Result<T> = std::result::Result<T, Box<dyn std::error::Error>>;
