@@ -68,6 +68,8 @@ impl<T: UsbContext> AlienLED<T> {
             LED::Tron7,
             LED::Tron8,
             LED::Tron9,
+            LED::PowerButton,
+            LED::Head,
         ];
 
         let rainbow_colors = [
